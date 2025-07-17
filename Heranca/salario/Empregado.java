@@ -1,4 +1,4 @@
-public class Empregado{
+public class Empregado {
 
     double salarioFixo;
 

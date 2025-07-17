@@ -1,7 +1,3 @@
-package heranca;
-
-import heranca.Animal;
-import heranca.Cachorro;
 public class Program {
     public static void main(String[] args) {
         Animal meuAnimal = new Animal();

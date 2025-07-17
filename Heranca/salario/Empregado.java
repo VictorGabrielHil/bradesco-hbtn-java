@@ -6,7 +6,7 @@ public class Empregado{
         this.salarioFixo = salarioFixo;
     }
 
-    double calcularBonus(Departamento departamento){
+    public double calcularBonus(Departamento departamento){
         return departamento.alcancouMeta() ? this.salarioFixo * 0.1 : 0;
     }
 
@@ -14,7 +14,5 @@ public class Empregado{
         return  this.salarioFixo + calcularBonus(departamento);
     }
 
-    public double getSalarioFixo() {
-        return salarioFixo;
-    }
+
 }

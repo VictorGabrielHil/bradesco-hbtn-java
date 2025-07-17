@@ -14,5 +14,11 @@ public class Empregado{
         return  this.salarioFixo + calcularBonus(departamento);
     }
 
+    public double getSalarioFixo() {
+        return salarioFixo;
+    }
 
+    public void setSalarioFixo(double salarioFixo) {
+        this.salarioFixo = salarioFixo;
+    }
 }

@@ -3,7 +3,7 @@ public class Departamento {
     double valorMeta;
     double valorAtingidoMeta;
 
-    public Departamento(double valorMeta, double valorMetaAtingida){
+    public Departamento(double valorMetaAtingida, double valorMeta){
         this.valorMeta = valorMeta;
         this.valorAtingidoMeta = valorMetaAtingida;
     }

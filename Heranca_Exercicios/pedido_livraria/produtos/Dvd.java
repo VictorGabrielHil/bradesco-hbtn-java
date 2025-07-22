@@ -1,6 +1,6 @@
-package Heranca_Exercicios.pedido_livraria.produtos;
+package produtos;
 
-public class Dvd extends Produto {
+public class Dvd extends produtos.Produto {
 
     private String diretor;
     private String genero;

@@ -1,5 +1,5 @@
-package produto;
-public class Livro extends Produto {
+package produtos;
+public class Livro extends produtos.Produto {
 
     private int paginas;
     private String autor;

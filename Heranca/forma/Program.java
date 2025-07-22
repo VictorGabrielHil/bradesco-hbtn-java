@@ -1,3 +1,5 @@
+import Heranca.retangulo_completo.FormaGeometrica;
+
 public class Program {
     public static void main(String[] args) {
         FormaGeometrica formaGeometrica = new FormaGeometrica();

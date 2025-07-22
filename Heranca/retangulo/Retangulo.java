@@ -1,3 +1,5 @@
+import Heranca.retangulo_completo.FormaGeometrica;
+
 public class Retangulo extends FormaGeometrica {
 
     public Retangulo(){

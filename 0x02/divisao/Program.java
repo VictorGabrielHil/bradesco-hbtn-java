@@ -12,6 +12,5 @@ public class Program {
         b = 0;
         Numero.dividir(a, b);
 
-        System.out.println();
     }
 }

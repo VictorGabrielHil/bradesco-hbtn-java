@@ -5,7 +5,8 @@ public class Program {
         a = 4;
         b = 3;
         Numero.dividir(a, b);
-        System.out.println();
+
+        System.out.println("");
 
         a = 9;
         b = 0;

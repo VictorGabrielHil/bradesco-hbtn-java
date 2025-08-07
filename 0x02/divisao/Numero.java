@@ -1,6 +1,7 @@
 public class Numero {
-    static int c;
     public static void dividir(int a, int b){
+
+        int c = 0;
 
         try{
              c = a / b;

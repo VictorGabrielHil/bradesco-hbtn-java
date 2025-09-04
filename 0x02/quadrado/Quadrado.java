@@ -5,7 +5,7 @@ public class Quadrado {
             return lado;
         }
         else {
-            throw new ArithmeticException("Lado deve possuir valor positivo");
+            throw new IllegalArgumentException("Lado deve possuir valor positivo");
         }
     }
 

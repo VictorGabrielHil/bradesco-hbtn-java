@@ -1,3 +1,5 @@
+import exceptions.AutorInvalidoException;
+import exceptions.LivroInvalidoException;
 public class LivroEdicaoOuro extends Livro {
 
     public LivroEdicaoOuro(String titulo, String autor, Double preco) throws LivroInvalidoException, AutorInvalidoException{
